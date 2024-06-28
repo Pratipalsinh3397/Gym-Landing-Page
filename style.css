@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+header{
+    background-image: url(banner2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* ----------------Home section------------------ */
+
+#top{
+    display: flex;
+    position: fixed; 
+    left: 0px;
+    right: 0px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.611);
+    z-index: 1;
+}
+
+#image{
+    height: 70px;
+    margin: 10px 0px 10px 10px;
+}
+#nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;  
+}
+
+#nav-bar ul li{
+    margin: 0px 25px;
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+#nav-bar ul li a::after{
+    content: "";
+    height: 4px;
+    width: 0%;
+    background-color: rgb(255, 149, 0);
+    border-radius: 2px;
+    margin: auto;
+    display: block;
+    transition: 0.1s;
+}
+
+#nav-bar ul li a:hover::after{
+    width: 100%;
+}
+
+#bar,#close{
+    display: none;
+    color: white;
+}
+#center{
+    /* border: 2px solid red; */
+    text-align: left;
+    width: 410px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    margin-top: 18pc;
+    margin-left: 10pc;
+    /* position: absolute;
+    top: 18pc;
+    left: 10pc; */
+}
+
+h1{
+    margin: 10px 0px;
+}
+
+#color{
+    color: rgb(255, 149, 0);
+}
+#btn{
+    padding: 15px 25px;
+    background-color: rgb(255, 149, 0);
+    border: 0px;
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+#btn:hover{
+    background-color: white;
+    color: rgb(255, 149, 0);
+    transition: 0.2s ease-in;
+}
+
+/* ----------------Service section------------------ */
+.center-section{
+    background-color: rgb(18, 15, 15);
+    color: white;
+    width: 100%;
+}
+
+.center-section #top-div-one{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#top-div-one > h2{
+    color: rgb(255, 149, 0);
+    font-size: 24px;
+    margin: 5px 0px;
+}
+.outer-inner{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px;
+}
+
+.image-class{
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 20px;
+    transition: all 500ms;
+    
+}
+
+.inner{
+    /* border: 2px solid red; */
+    width: 400px;
+    /* border: 1px solid white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 0px auto 50px;
+}
+
+.inner > h3{
+    font-size: 35px;
+    color: rgb(255, 149, 0);
+}
+
+#div-one{
+    background-color: rgba(240, 255, 240, 0.364);
+}
+#div-two{
+    background-color: rgba(240, 255, 240, 0);
+}
+#div-three{
+    background-color: rgba(240, 255, 240, 0.364);
+}
+#div-four{
+    background-color: rgba(240, 255, 240, 0);
+}
+
+
+.image-class:hover{
+    box-shadow: 20px 20px 10px rgb(255, 149, 0);
+    transform: scale(1.05);
+}
+
+/* ---------------------About Section----------------------- */
+.center-bottom-section{
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(18, 15, 15);
+}
+
+.center-bottom-section #top-div-two{
+    background-color: rgba(66, 71, 66, 0.849);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+
+#top-div-two > h2{
+    color: rgb(255, 149, 0);
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 150px 110px;
+
+}
+
+.main-div .main-inner{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.fa-indian-rupee-sign{
+    padding: 25px 35px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 45px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+.fa-indian-rupee-sign:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.fa-apple-whole{
+    padding: 25px 28px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 45px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+.fa-apple-whole:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.fa-dumbbell{
+    padding: 25px 20px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 45px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+.fa-dumbbell:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.fa-heart-pulse{
+    padding: 25px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 45px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+
+.fa-heart-pulse:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.main-inner > h2{
+    color: white;
+    margin: 20px 0px;
+}
+
+.main-inner > p{
+    color: rgb(123, 129, 123);
+    text-align: center;
+}
+
+/* ---------------------------Contact section-------------------------------------- */
+.bottom-section{
+    background-color: rgb(18, 15, 15);
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#top-div-three{
+    background-color: rgba(66, 71, 66, 0.849);
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#top-div-three > h2{
+    color: rgb(255, 149, 0);
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.head-div{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-div{
+    /* border: 1px solid red; */
+    margin: 102px 0px 102px 0px;
+}
+#contact-div{
+    width: 500px;
+    padding: 25px;
+}
+
+#contact-div .fa-location-dot{
+    padding: 25px 28px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+#contact-div .fa-location-dot:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+#contact-div .fa-mobile-screen{
+    padding: 25px 28px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+#contact-div .fa-mobile-screen:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+#contact-div .fa-envelope{
+    padding: 25px;
+    background-color: rgba(66, 71, 66, 0.849);
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(255, 149, 0);
+}
+#contact-div .fa-envelope:hover{
+    background-color: rgb(255, 149, 0);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+#contact-div .fa-location-dot, .fa-mobile-screen, .fa-envelope{
+    margin: 10px 10px 10px 0px;
+}
+
+#form-div{
+    width: 800px;
+    padding: 25px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Comment{
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+    overflow: auto;
+    height: 80px;
+}
+
+#Comment::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Button{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 149, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Button:hover{
+    background-color: white;
+    color: rgb(255, 149, 0);
+    transition: 0.2s ease-in;
+}
+/* --------------------footer section--------------------------- */
+footer{
+    background-color: rgba(66, 71, 66, 0.849);
+    min-height: 55vh;
+    color: white;
+}
+.footer-inner{
+    width: 700px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 0px auto;
+}
+#image-two{
+    height: 70px;
+    width: fit-content;
+    margin: 30px auto 10px auto;
+}
+
+#p-one{
+    text-align: center;
+    margin: 0px auto 20px auto;
+}
+
+#p-two{
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+
+#p-three{
+    text-align: center;
+    margin: 0px auto 20px auto;
+}
+
+#p-four{
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+hr{
+    border:1px solid rgb(255, 149, 0);
+}
+
+#icon{
+    margin: 20px 0px;
+}
+
+#icon > .fa{
+    margin: 0px 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#icon > .fa-facebook:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+}
+
+#icon > .fa-instagram:hover{
+    background-color: rgb(197, 16, 127);
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+}
+
+#icon > .fa-youtube:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+}
+
+#icon > .fa-twitter:hover{
+    background-color: rgb(0, 170, 255);
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+}

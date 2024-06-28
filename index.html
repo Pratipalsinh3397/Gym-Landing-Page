@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <script src="https://kit.fontawesome.com/9dbd2ea763.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="top">
+            <img src="logo.png" alt="Not found" id="image">
+            <nav id="nav-bar">
+                <ul>
+                    <li><i class="fa-solid fa-xmark" id="close" onclick="hideMenu()"></i></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-bars" id="bar" onclick="showMenu()"></i>
+        </div>
+        <div id="center">
+            <h4>SHAPE YOUR BODY</h4 >
+                <h1>BE <span id="color">STRONG</span> TRAINING HARD</h1>
+                <button id="btn">GET INFO</button>
+            </div>
+    </header>
+    <!-- Service Section -->
+    <section  class="center-section">
+        <div id="top-div-one">
+            <h2>OUR SERVICES</h2>
+            <p>PUSH YOUR LIMITS FORWARD</p>
+        </div>
+        <div class="outer">
+            <div class="outer-inner" id="div-one">
+                <img src="img1.jpg" alt="Not found" id="img1" class="image-class">
+                <div class="inner" id="one">
+                    <h3>Personal training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim doloribus odio! Ex quod ipsa magni totam error adipisci debitis perspiciatis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus ullam obcaecati laboriosam nobis corrupti.</p>
+                </div> 
+            </div>
+            <div class="outer-inner" id="div-two">
+                <img src="img2.jpg" alt="Not found" id="img2" class="image-class">
+                <div class="inner" id="two">
+                    <h3>Group fitness classes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim doloribus odio! Ex quod ipsa magni totam error adipisci debitis perspiciatis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus ullam obcaecati laboriosam nobis corrupti.</p>
+                </div>
+            </div>
+            <div class="outer-inner" id="div-three">
+                <img src="img3.jpg" alt="Not found" id="img3" class="image-class">
+                <div class="inner" id="three">
+                    <h3>Strength training</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim doloribus odio! Ex quod ipsa magni totam error adipisci debitis perspiciatis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus ullam obcaecati laboriosam nobis corrupti.</p>
+                </div>
+            </div>
+            <div class="outer-inner" id="div-four">
+                <img src="img4.jpg" alt="Not found" id="img4" class="image-class">
+                <div class="inner" id="four">
+                    <h3>Body building</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim doloribus odio! Ex quod ipsa magni totam error adipisci debitis perspiciatis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi ducimus ullam obcaecati laboriosam nobis corrupti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="center-bottom-section">
+        <div id="top-div-two">
+            <h2>ABOUT US</h2>
+            <p>PUSH YOUR LIMITS FORWARD</p>
+        </div>
+        <div class="main-div">
+            <div class="main-inner" id="inner1">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <h2>Affordable membership</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde, neque, consectetur reiciendis fugit </p>
+            </div>
+            <div class="main-inner" id="inner2">
+                <i class="fa-solid fa-apple-whole"></i>
+                <h2>Healthy nutrition plan</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde, neque, consectetur reiciendis fugit </p>
+            </div>
+            <div class="main-inner" id="inner3">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h2>Professional training plan</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde, neque, consectetur reiciendis fugit </p>
+            </div>
+            <div class="main-inner" id="inner4">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h2>Unique to your needs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi unde, neque, consectetur reiciendis fugit </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bottom-section">
+        <div id="top-div-three">
+            <h2>CONTACT US</h2>
+            <p>WE ARE OPEN FOR ANY SUGGESTION OR JUST TO HAVE A CHAT</p>
+        </div>
+        <div class="head-div">
+            <div class="inner-div" id="contact-div">
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>123, IIM Rd, Ahmedabad, Gujarat</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <span>+91 987654321 | +91 9865324174</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ranafitnessclub@gmail.com</span>
+                </p>
+            </div>
+            <div class="inner-div" id="form-div">
+                <form id="frm">
+                    <input type="text" name="Name" id="Name" placeholder="Name">
+                    <input type="text" name="Email" id="Email" placeholder="Email">
+                    <input type="text" name="Subject" id="Subject" placeholder="Subject">
+                    <textarea name="Comment" id="Comment" placeholder="Comment"></textarea>
+                    <button type="button" id="Button">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-inner">
+            <img src="logo.png" alt="Not found" id="image-two">
+            <p id="p-one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora tempore dolore expedita dignissimos quas veritatis, corrupti quam reiciendis recusandae asperiores iste </p>
+            <hr>
+            <p id="p-two">123, IIM Rd, Ahmedabad, Gujarat</p>
+            <p id="p-three">+91 987654321 | +91 9865324174</p>
+            <div id="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+            <hr>
+            <p id="p-four">Copyright © 2024 - All rights reserved || Designed By: Pratipalsinh Rana</p> 
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

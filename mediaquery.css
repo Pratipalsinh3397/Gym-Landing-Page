@@ -1,0 +1,540 @@
+/* media query for Mobile */
+@media only screen and (max-width:580px){
+    /* header section */
+    #nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        top: 0px;
+        right: -50%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0px;
+        justify-content: start;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+    #nav-bar ul li{
+        padding: 30px 0px;
+    }
+    #nav-bar ul li a{
+        font-size: 18px;
+        transition: 0.5s ease-in-out;
+    }
+    #image{
+        height: 50px;
+    }
+    #bar{
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        font-size: 25px;
+    }
+    #close{
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        font-size: 25px;
+    }
+    #center{
+        text-align: center;
+        width: 250px;
+        font-size: 15px;
+        float: left;
+        margin: 15pc 0pc 0pc 3pc;
+        /* border: 1px solid red; */
+        z-index: -1;
+    }
+    #btn{
+        font-size: 10px;
+    }
+    /* service section */
+    .center-section #top-div-one{
+        padding: 10px 0px;
+    }
+    .center-section #top-div-one > p{
+        font-size: 12px;
+    }
+    .center-section #top-div-one > h2{
+        font-size: 15px;
+    }
+
+    .outer-inner{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding: 50px 0px;
+    }
+    
+    .image-class{
+        width: fit-content;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+    
+    .inner{
+        width: 250px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    
+    .inner > h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .inner > p{
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    /* about section */    
+    .center-bottom-section #top-div-two{
+        padding: 10px 0px;
+    }
+    .center-bottom-section #top-div-two > p{
+        font-size: 12px;
+    }
+    .center-bottom-section #top-div-two > h2{
+        font-size: 15px;
+    }
+
+    .main-div{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 35px 20px;
+        
+    }
+    
+    .main-div .main-inner{
+        width: fit-content;
+        height: 300px;
+        text-align: center;
+        margin: 0px 15px;
+       
+    }
+    
+    .fa-indian-rupee-sign{
+        padding: 15px 25px;
+        font-size: 35px;
+
+    }
+
+    .fa-apple-whole{
+        padding: 15px 18px;
+        font-size: 35px;
+    }
+    
+    .fa-dumbbell{
+        padding: 15px 10px;
+        font-size: 35px;
+    }
+
+    
+    .fa-heart-pulse{
+        padding: 15px;
+        font-size: 35px;
+    }
+    
+    .main-inner > h2{
+        font-size: 20px;
+    }
+    
+    .main-inner > p{
+        font-size: 13px;
+    }
+
+    /* contact section */ 
+    #top-div-three{
+        padding: 10px 0px;
+    }     
+    #top-div-three > p{
+        font-size: 10px;
+    } 
+    #top-div-three > h2{
+        font-size: 15px;
+    } 
+    .head-div{
+        flex-wrap: wrap;
+
+    }
+    .inner-div{
+        margin: 20px 0px;
+    }
+    #contact-div{
+        width:fit-content;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    #contact-div .fa-location-dot{
+        padding: 12px 15px;
+        font-size: 17px;
+    }
+    
+    #contact-div .fa-mobile-screen{
+        padding: 12px 15px;
+        font-size: 17px;
+    }
+    
+    #contact-div .fa-envelope{
+        padding: 12px;
+        font-size: 17px;
+    }
+
+    #contact-div p > span{
+        font-size: 13px;
+    }
+    
+    #form-div{
+        width: 300px;
+        padding: 10px 0px 10px 0px;
+    }
+    input,#Comment,#Button{
+        font-size: 12px;
+    }
+
+    /* footer section */
+    .footer-inner{
+        width: fit-content;
+    }
+    #image-two{
+        width: fit-content;
+        height: 50px;
+    }
+    
+    #p-one{
+        font-size: 9px;
+    }
+    
+    #p-two{
+        font-size: 10px;
+    }
+    
+    #p-three{
+        font-size: 10px;
+    }
+    
+    #p-four{
+        font-size: 10px;
+    }
+    
+    hr{
+        width: 250px;
+        margin: 0px auto;
+    }
+    
+    #icon > .fa{
+        margin: 0px 0px;
+        font-size: 15px;
+    }
+}    
+
+/* media query for tablet */
+@media only screen and (min-width:581px) and (max-width:770px){
+    /* header section */
+    #nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        top: 0px;
+        right: -50%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        margin-top: 0px;
+        justify-content: start;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+    #nav-bar ul li a{
+        transition: 0.5s ease-in-out;
+    }
+    #bar{
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 35px;
+    }
+    #close{
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-size: 35px;
+    }
+    #nav-bar ul li{
+        padding: 30px 0px;
+    }
+    #center{
+        z-index: -1;
+        font-size: 20px;
+        margin-top: 15pc;
+    }
+
+    /* service section */
+    .center-section #top-div-one{
+        padding: 25px 0px;
+    }
+
+    .outer-inner{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding: 50px 150px;
+    }
+    
+    .image-class{
+        width: 450px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .inner{
+        width: 400px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    
+    .inner > h3{
+        font-size: 35px;
+    }
+
+    .inner > p{
+        margin-top: 15px;
+    }
+
+    /* about section */    
+    .center-bottom-section #top-div-two{
+        padding: 25px 0px;
+    }
+
+    .main-div{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 100px 40px;
+    
+    }
+    
+    .main-div .main-inner{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 0px 15px;
+    }
+    
+    .fa-indian-rupee-sign{
+        padding: 15px 25px;
+        font-size: 35px;
+
+    }
+
+    .fa-apple-whole{
+        padding: 15px 18px;
+        font-size: 35px;
+    }
+    
+    .fa-dumbbell{
+        padding: 15px 10px;
+        font-size: 35px;
+    }
+
+    
+    .fa-heart-pulse{
+        padding: 15px;
+        font-size: 35px;
+    }
+    
+    .main-inner > h2{
+        font-size: 20px;
+    }
+    
+    .main-inner > p{
+        font-size: 15px;
+    }
+
+    /* contact section */ 
+    #top-div-three{
+        padding: 25px 0px;
+    }     
+    .inner-div{
+        /* border: 1px solid red; */
+        margin: 51px 0px;
+    }
+    #contact-div{
+        width:400px;
+        padding: 50px 20px 50px 30px;
+    }
+    
+    #contact-div .fa-location-dot{
+        padding: 15px 18px;
+        font-size: 20px;
+    }
+    
+    #contact-div .fa-mobile-screen{
+        padding: 15px 18px;
+        font-size: 20px;
+    }
+    
+    #contact-div .fa-envelope{
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+    #form-div{
+        width: 400px;
+        padding: 20px 30px 20px 20px;
+    }
+    
+    /* footer section */
+    footer{
+        min-height: 55vh;
+    }
+    .footer-inner{
+        width: 600px;
+    }
+    
+    #p-one{
+        font-size: 13px;
+    }
+    
+    #p-two{
+        font-size: 13px;
+    }
+    
+    #p-three{
+        font-size: 13px;
+    }
+    
+    #p-four{
+        font-size: 13px;
+    }
+    
+    hr{
+        width: 500px;
+        margin: 0px auto;
+    }
+    
+    #icon > .fa{
+        font-size: 15px;
+    }
+    
+}
+
+/* media query for 1024px laptop */
+@media only screen and (min-width:771px) and (max-width: 1030px){
+    /* top section */
+    #center{
+        font-size: 20px;
+        margin-top: 15pc;
+    }
+
+    /* service section */
+    .outer-inner{
+        padding: 50px 100px;
+    }
+
+    .image-class{
+        width: 400px;
+        height: 250px;
+        margin: auto 25px auto 0px;
+    }
+    
+    .inner{
+        width: 1000px;
+        margin: auto 0px auto 25px;
+        font-size: 15px;
+    }
+    
+    .inner > h3{
+        font-size: 28px;
+    }
+
+    /* about section */
+    .main-div{
+        width: 100%;
+        padding: 110px 20px;  
+    }
+    
+    .main-div .main-inner{
+        /* border: 2px solid red; */
+        width: 800px;
+        height: 300px;
+        padding: 50px 0px;
+    }
+    
+    .fa-indian-rupee-sign{
+        padding: 20px 30px;
+        font-size: 40px;
+    }
+    
+    .fa-apple-whole{
+        padding: 20px 23px;
+        font-size: 40px;
+    }
+    
+    .fa-dumbbell{
+        padding: 20px 15px;
+        font-size: 40px;
+    }
+    
+    .fa-heart-pulse{
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    .main-inner > h2{   
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+    
+    .main-inner > p{
+        font-size: 15px;
+    }
+    
+    /* conatact section */
+    #contact-div{
+        width: 400px;
+        padding: 50px 15px;
+    }
+    
+    #contact-div .fa-location-dot{
+        padding: 20px 23px;
+        font-size: 25px;
+    }
+    
+    #contact-div .fa-mobile-screen{
+        padding: 20px 23px;
+        font-size: 25px;
+    }
+    
+    #contact-div .fa-envelope{
+        padding: 20px;
+        font-size: 25px;
+    }
+    #contact-div .fa-location-dot, .fa-mobile-screen, .fa-envelope{
+        margin: 10px 10px 10px 0px;
+    }
+    
+    #form-div{
+        width: 500px;
+        padding: 15px;
+    }
+    
+    input{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    
+    /* footer section */
+    footer{
+        min-height: 60vh;
+    }
+
+    
+}
