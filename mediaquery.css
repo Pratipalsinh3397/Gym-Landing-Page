@@ -51,8 +51,8 @@
         text-align: center;
         width: 250px;
         font-size: 15px;
-        float: left;
-        margin: 15pc 0pc 0pc 3pc;
+        float: inline-start;
+        margin: 15pc 3pc 0pc 3pc;
         /* border: 1px solid red; */
         z-index: -1;
     }
