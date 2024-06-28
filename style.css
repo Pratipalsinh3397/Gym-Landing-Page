@@ -77,13 +77,22 @@ header {
     color: white;
 }
 
-#center {
+#main-center{
+     /* border: 1px solid red; */
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     height: 100vh;
+    }
+    #center {
+    /* border: 1px solid red; */
     text-align: left;
     width: 410px;
     font-size: 25px;
     color: white;
-    float: inline-start;
-    margin: 18pc auto 0pc 10pc;
+    margin: 0px 0px 0px 10pc;
+    /* float: inline-start; */
+    /* margin: 18pc auto 0pc 10pc; */
     /* position: absolute;
     top: 18pc;
     left: 10pc; */
