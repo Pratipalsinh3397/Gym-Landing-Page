@@ -52,7 +52,7 @@
         text-align: center;
         width: 250px;
         font-size: 15px;
-        margin: 0px auto;
+        margin: 15pc auto;
         /* float: inline-start;
         margin: 15pc 3pc 0pc 3pc; */
         /* border: 1px solid red; */
@@ -304,7 +304,7 @@
     #center {
         z-index: 0;
         font-size: 20px;
-        /* margin-top: 15pc; */
+        margin-top: 15pc;
     }
 
     /* service section */
@@ -464,7 +464,7 @@
     /* top section */
     #center {
         font-size: 20px;
-        /* margin-top: 15pc; */
+        margin-top: 15pc;
     }
 
     /* service section */
