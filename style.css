@@ -78,14 +78,12 @@ header {
 }
 
 #center {
-    /* border: 2px solid red; */
     text-align: left;
     width: 410px;
     font-size: 25px;
     color: white;
-    float: left;
-    margin-top: 18pc;
-    margin-left: 10pc;
+    float: inline-start;
+    margin: 18pc auto 0pc 10pc;
     /* position: absolute;
     top: 18pc;
     left: 10pc; */
