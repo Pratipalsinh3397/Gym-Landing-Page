@@ -12,28 +12,30 @@
     <script src="https://kit.fontawesome.com/9dbd2ea763.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="Home">
         <div id="top">
             <img src="logo.png" alt="Not found" id="image">
             <nav id="nav-bar">
                 <ul>
                     <li><i class="fa-solid fa-xmark" id="close" onclick="hideMenu()"></i></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
             <i class="fa-solid fa-bars" id="bar" onclick="showMenu()"></i>
         </div>
-        <div id="center">
-            <h4>SHAPE YOUR BODY</h4 >
-                <h1>BE <span id="color">STRONG</span> TRAINING HARD</h1>
-                <button id="btn">GET INFO</button>
+        <div id="main-center">
+            <div id="center">
+                <h4>SHAPE YOUR BODY</h4 >
+                    <h1>BE <span id="color">STRONG</span> TRAINING HARD</h1>
+                    <button id="btn">GET INFO</button>
             </div>
+        </div>
     </header>
     <!-- Service Section -->
-    <section  class="center-section">
+    <section  class="center-section" id="Service">
         <div id="top-div-one">
             <h2>OUR SERVICES</h2>
             <p>PUSH YOUR LIMITS FORWARD</p>
@@ -71,7 +73,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="center-bottom-section">
+    <section class="center-bottom-section" id="About">
         <div id="top-div-two">
             <h2>ABOUT US</h2>
             <p>PUSH YOUR LIMITS FORWARD</p>
@@ -101,7 +103,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="bottom-section">
+    <section class="bottom-section" id="Contact">
         <div id="top-div-three">
             <h2>CONTACT US</h2>
             <p>WE ARE OPEN FOR ANY SUGGESTION OR JUST TO HAVE A CHAT</p>
